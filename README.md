@@ -29,3 +29,13 @@ And for my academic life I plan to use the exam dates, homework dates and their 
 I primarily watch movies or series on Netflix if they are available on the Netflix library. Therefore, I will use my own Netflix viewing history. In addition, I regularly log the movies I watch on Letterboxd so for the movies I watch I will use data from Letterboxd. I will combine these two datasets to create my full record of watching history.
 
 However, Netflix viewing history only gives me the title and the date I watched. To get the duration, year, genre, language, country, ratings of the movies or episodes I watch , I will use TMDB (The Movie Database) dataset which contains this information for both TV series and movies. 
+
+I created an academic workload file to get the dates of my exams,quizzes and homeworks.
+
+## Datasets
+**academicworkload:** Date, Course, Type, Importancy.  
+**diary:** Date, Course, Type, Importancy.  
+**NetflixViewingHistory:** Title, Date.      
+**allwatched:** Title, Type, Year, MyRating, Watched Date, Genres, Runtime ,Release Date, Popularity, Vote Average, Vote Count, Language. 
+
+
