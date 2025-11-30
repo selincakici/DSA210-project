@@ -35,4 +35,12 @@ I created an academic workload file to get the dates of my exams,quizzes and hom
 **diary:** Date, Name, Year, Letterboxd URI, Rating, Rewatch, Tags, Watched Date.       
 **allwatched:** Title, MyRating, MyWatchedDate, Year, Genres, Runtime ,TMDB_Rating, Language, ReleaseDate, Popularity, Cast. 
 
+## Hypotheses
+### Academic Workload and Movie Watch Time
+**Null Hypothesis (H₀):** Weekly academic workload has no meaningful influence on the number of movies I watch during that week. The number of movies I watch in a week are random and are not affected by the the changes in academic workload.
+
+**Alternative Hypothesis (H₁):** Weekly academic workload has a significant influence on my movie watching behaviour. Specifically, as academic workload increases, the number of movies I watch per week tends to decrease in a consistent pattern, indicating a measurable behavioral response to rising academic pressure.
+
+## Hypothesis Testing Results
+
 
