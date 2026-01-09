@@ -53,3 +53,11 @@ The chi-square test examining whether academic workload influences the language 
 ### Academic Workload and Genres
 The test results show no statistically significant association between weekly workload level and genre selection (χ² = 9.63, p = 0.141). Because the p-value is bigger than the  0.05 threshold, the null hypothesis (H₀) **cannot be rejected.**
 This means that the distribution of genres is essentially the same in both high-workload and low-workload weeks.The types of genres I choose remain consistent regardless of academic pressure.
+
+## Machine Learning
+
+## Limitations and Future Work 
+This project was limited to my own academic workload and movie watching history covering only two semesters which resulted in a small dataset. Moreover, the machine learning models isn't able capture the relationship.In future work, using data from multiple semesters ,when I add new data, could help further develop and improve this analysis.
+
+
+## Conclusion
