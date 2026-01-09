@@ -67,11 +67,12 @@ To estimate my weekly academic workload, I used data from the Fall 2025 semester
 
 To analyze the types of movies I am likely to watch in the next spring semester, I used a k-Nearest Neighbors (kNN) regression model based on my past movie-watching history.First, I converted movie genres into numerical features using one-hot encoding and aggregated them on a weekly basis. Each week was represented as an input feature, and the output consisted of the number of movies watched in each genre during that week. I then trained a kNN regressor using the week number as the input and genre counts as the target.I chose kNN because it does not try to capture a mathematical relationship between time and genre preferences. Instead, it makes predictions by comparing future weeks with similar weeks in the past, which is suitable for my problem.
 
-<img width="873" height="316" alt="eca87cf3-a4f6-4049-8261-5b39bd2761e1" src="https://github.com/user-attachments/assets/758c996f-6986-47ce-8a21-6b3411b01200" />
+
+<img width="873" height="405" alt="5eb2df0f-794c-4a18-82df-31bd0af3dcb3" src="https://github.com/user-attachments/assets/c9755cd8-efda-4abb-8972-2268de0e2624" />
 
 The same kNN-based methodology was applied to language prediction of the movies I will watch in spring term .Because of the same reasons as language preferences are irregular and better modeled through similarity-based approaches rather than linear trends.
 
-<img width="873" height="405" alt="5eb2df0f-794c-4a18-82df-31bd0af3dcb3" src="https://github.com/user-attachments/assets/c9755cd8-efda-4abb-8972-2268de0e2624" />
+<img width="873" height="316" alt="eca87cf3-a4f6-4049-8261-5b39bd2761e1" src="https://github.com/user-attachments/assets/758c996f-6986-47ce-8a21-6b3411b01200" />
 
 Due to the limited size of the dataset, the data was not divided into separate training and validation sets. The machine learning approach was applied only to generate predictions.
 
