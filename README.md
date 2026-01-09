@@ -55,9 +55,18 @@ The test results show no statistically significant association between weekly wo
 This means that the distribution of genres is essentially the same in both high-workload and low-workload weeks.The types of genres I choose remain consistent regardless of academic pressure.
 
 ## Machine Learning
+I applied machine learning methods to investigate the following questions:
+How much academic workload I will have on a weekly basis
+How many movies I will watch each week
+The total distribution of movie genres I am expected to watch during the Spring semester
+The distribution of movie languages I am expected to watch during the Spring semester
+
+To estimate my weekly academic workload, I used data from the Fall 2025 semester only. A polynomial regression model with a degree of 4 was applied to capture the non-linear pattern of academic workload over time, which increases at the beginning of the semester, decreases in the middle, and rises again toward the end.I chose polynomial regression because as the limited dataset size could lead to overfitting and unstable predictions when compex models are used. The same regression-based approach was applied to model weekly movie-watching behavior in spring term.
+
+<img width="979" height="470" alt="2cbb1134-913f-4b8c-ae50-9aa1f1722dfb" src="https://github.com/user-attachments/assets/efbc152f-a3e4-43bb-afa9-f35d2196f0e4" />
+
 
 ## Limitations and Future Work 
 This project was limited to my own academic workload and movie watching history covering only two semesters which resulted in a small dataset. Moreover, the machine learning models isn't able capture the relationship.In future work, using data from multiple semesters ,when I add new data, could help further develop and improve this analysis.
 
 
-## Conclusion
