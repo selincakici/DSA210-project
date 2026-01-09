@@ -45,11 +45,11 @@ This implies that academic workload affects genre selection, meaning certain gen
 
 ## Hypothesis Testing Results
 ### Academic Workload and Movie Watch Time
-Based on the results of the two-sample t-test (t = −2.58, p = 0.025), the p-value is below the significance level 0.05. Therefore, the **null hypothesis (H₀) is rejected**. This means that weekly academic workload  have a significant influence on the number of movies I watch per week. Consistent with the alternative hypothesis (H₁), higher workload weeks are associated with substantially fewer movies watched.
+Based on the results of the two-sample t-test (t = −2.58, p = 0.039), the p-value is below the significance level 0.05. Therefore, the **null hypothesis (H₀) is rejected**. This means that weekly academic workload  have a significant influence on the number of movies I watch per week. Consistent with the alternative hypothesis (H₁), higher workload weeks are associated with substantially fewer movies watched.
 
 ### Academic Workload and Movie Langauges
-The chi-square test examining whether academic workload influences the language of movies watched shows no statistically significant association between the two variables (χ² = 1.86, p = 0.967). Because the p-value is higher than the 0.05 significance level, the null hypothesis (H₀) **cannot be rejected.** This means that the distribution of movie languages is essentially the same in both high-workload and low-workload weeks. Academic workload does not influence which languages I choose to watch. 
+The chi-square test examining whether academic workload influences the language of movies watched shows no statistically significant association between the two variables (χ² = 2.07, p = 0.96). Because the p-value is higher than the 0.05 significance level, the null hypothesis (H₀) **cannot be rejected.** This means that the distribution of movie languages is essentially the same in both high-workload and low-workload weeks. Academic workload does not influence which languages I choose to watch. 
 
 ### Academic Workload and Genres
-The test results show no statistically significant association between weekly workload level and genre selection (χ² = 2.32, p = 0.8038). Because the p-value is bigger than the  0.05 threshold, the null hypothesis (H₀) **cannot be rejected.**
+The test results show no statistically significant association between weekly workload level and genre selection (χ² = 9.63, p = 0.141). Because the p-value is bigger than the  0.05 threshold, the null hypothesis (H₀) **cannot be rejected.**
 This means that the distribution of genres is essentially the same in both high-workload and low-workload weeks.The types of genres I choose remain consistent regardless of academic pressure.
